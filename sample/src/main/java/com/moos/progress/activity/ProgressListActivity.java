@@ -1,10 +1,10 @@
 package com.moos.progress.activity;
 
 import android.content.Context;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,7 +15,6 @@ import com.moos.library.HorizontalProgressView;
 import com.moos.progress.R;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class ProgressListActivity extends AppCompatActivity {
 

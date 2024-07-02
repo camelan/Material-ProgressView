@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".activity.ProgressListActivity">
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:background="@color/blue_start"
@@ -28,11 +28,11 @@
             android:textColor="#ffffffff"
             android:textStyle="italic"
             android:textSize="18sp"/>
-    </android.support.v7.widget.Toolbar>
-    <android.support.v7.widget.RecyclerView
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/progress_list_recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    </android.support.v7.widget.RecyclerView>
+    </androidx.recyclerview.widget.RecyclerView>
 </LinearLayout>

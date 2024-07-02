@@ -1,17 +1,17 @@
 apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
+
 android {
-    compileSdkVersion 26
-
-
+    namespace 'com.moos.library'
+    compileSdkVersion 33
 
     defaultConfig {
         minSdkVersion 16
-        targetSdkVersion 26
+        targetSdkVersion 33
         versionCode 1
         versionName version
 
         //estInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
     }
 
     buildTypes {
@@ -20,25 +20,24 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation 'com.android.support:support-annotations:27.1.0'
+    implementation 'androidx.annotation:annotation:1.0.0'
 
-    testCompile 'junit:junit:4.12'
+    testImplementation 'junit:junit:4.12'
 }
 
-apply plugin: 'com.novoda.bintray-release'
-
-
-publish {
-    userOrg = 'moosphon'//bintray-username
-    groupId = 'com.moos'//group name
-    artifactId = 'Material-ProgressView'//项目名称
-    publishVersion = '1.0.6'//version
-    desc = 'This is a pretty and simple used library for progress views on android'
-    website = 'https://github.com/Moosphan/Material-ProgressView'//website
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.moos'
+                artifactId = 'Material-ProgressView'
+            }
+        }
+    }
 }

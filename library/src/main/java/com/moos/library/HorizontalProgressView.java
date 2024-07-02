@@ -8,16 +8,13 @@ import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.LinearGradient;
 import android.graphics.Paint;
-import android.graphics.Path;
-import android.graphics.PathDashPathEffect;
-import android.graphics.PathEffect;
 import android.graphics.RectF;
 import android.graphics.Shader;
 import android.os.Bundle;
 import android.os.Parcelable;
-import android.support.annotation.ColorInt;
-import android.support.annotation.IntDef;
-import android.support.annotation.Nullable;
+import androidx.annotation.ColorInt;
+import androidx.annotation.IntDef;
+import androidx.annotation.Nullable;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
@@ -27,7 +24,6 @@ import android.view.animation.DecelerateInterpolator;
 import android.view.animation.Interpolator;
 import android.view.animation.LinearInterpolator;
 import android.view.animation.OvershootInterpolator;
-import android.widget.ListView;
 
 /**
  * Created by moos on 2018/3/19.

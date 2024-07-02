@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/Camelan.Material-ProgressView.library.iml" filepath="$PROJECT_DIR$/.idea/modules/library/Camelan.Material-ProgressView.library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/Camelan.Material-ProgressView.library.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/library/Camelan.Material-ProgressView.library.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/Camelan.Material-ProgressView.library.main.iml" filepath="$PROJECT_DIR$/.idea/modules/library/Camelan.Material-ProgressView.library.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/Camelan.Material-ProgressView.library.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/library/Camelan.Material-ProgressView.library.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample/Camelan.Material-ProgressView.sample.iml" filepath="$PROJECT_DIR$/.idea/modules/sample/Camelan.Material-ProgressView.sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample/Camelan.Material-ProgressView.sample.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/sample/Camelan.Material-ProgressView.sample.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample/Camelan.Material-ProgressView.sample.main.iml" filepath="$PROJECT_DIR$/.idea/modules/sample/Camelan.Material-ProgressView.sample.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample/Camelan.Material-ProgressView.sample.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/sample/Camelan.Material-ProgressView.sample.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/Material-ProgressView.iml" filepath="$PROJECT_DIR$/Material-ProgressView.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
       <module fileurl="file://$PROJECT_DIR$/sample/sample.iml" filepath="$PROJECT_DIR$/sample/sample.iml" />
